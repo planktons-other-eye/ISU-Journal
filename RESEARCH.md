@@ -1,6 +1,9 @@
-Article: Beautiful Soup: Build a Webscarper With Python
-Source: https://realpython.com/beautiful-soup-web-scraper-python/
-Reason: Wanted to learn the basics of webscraping
+
+| WebScraping | Research |
+| -------- | -------------- |
+| Article:| Beautiful Soup: Build a Webscarper With Python |
+| Source: | https://realpython.com/beautiful-soup-web-scraper-python/ |
+| Reason: | Wanted to learn the basics of webscraping |
 
 
 **Challenges of web scraping:**
@@ -9,7 +12,7 @@ Variety: every website is different, while you can encounter general structures 
 Durability: websites constantly change, first time you run your script it might work flawlessly but if you run it again a while later you might get a stack of tracebacks
 
 -scrapers generally require constant maintenance 
---you can set up continuous integration to run scarping tests periodically to ensure that your main script doesn’t break without your knowledge 
+	-you can set up continuous integration to run scarping tests periodically to ensure that your main script doesn’t break without your knowledge 
 
 Continuous integration: practice of frequently building and testing each change done to your code automatically and as early as possible 
 
@@ -18,7 +21,7 @@ Continuous integration: practice of frequently building and testing each change 
 	-HOW TO GATHER INFO USING API’s
 
 
-How to webscrape:
+**How to webscrape:**
 
 Step 1: Inspect your data source
 
@@ -26,17 +29,19 @@ Step 1: Inspect your data source
 	-likely when you click on an internal link within the website, the website url will change
 	-learn to decipher info in urls 
 
-			^
-Ex:	https://realpython.github.io/fake-jobs/jobs/senior-python-developer-0.html
+			
+	Ex:	https://realpython.github.io/fake-jobs/jobs/senior-python-developer-0.html
 
-	-can deconstruct the URL into two main parts 
+-can deconstruct the URL into two main parts 
+
 The base url represents the path to the search functionality of the website
 The specific site location that ends with .html is the path to the job description’s unique resource
 
 -URLs can hold more info than just the location of a file, some websites use query parameters to encode values that you submit when performing a search 
 
 -Query parameters can be thought of as query strings that you send to the database to retrieve specific records 
-URL example:  https://au.indeed.com/jobs?q=software+developer&l=Australia
+
+	URL example:  https://au.indeed.com/jobs?q=software+developer&l=Australia
 
 -the query parameters in this URL are: ?q=software+developer&l=Australia
 
