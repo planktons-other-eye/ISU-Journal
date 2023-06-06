@@ -26,7 +26,7 @@ Continuous integration: practice of frequently building and testing each change 
 
 **How to webscrape:**
 
-Step 1: Inspect your data source
+**** Step 1: Inspect your data source
 
 -First step is to inspect the website you want to scrape, need to understand the cite structure to extract the info that relevant 
 * likely when you click on an internal link within the website, the website url will change
@@ -63,4 +63,18 @@ Can look at the URL’s query parameters into two key value pairs:
 q=software+developer selects the type of job.
 
 l=Australia selects the location of the job.
+
+**Inspect the Site Using Developer Tools 
+
+-developer tools can help you understand the structure of a website
+
+-can use developer tools on chrome 
+
+-developer tools allow you to interactively explore the site's document object model (DOM)
+
+
+**** Step 2: Scrape HTML Content From a Page
+
+
+
 
