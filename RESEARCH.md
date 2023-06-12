@@ -77,7 +77,38 @@ l=Australia selects the location of the job.
 
 -want to get the sites html code into python script so you can interact with it, need to do this by going through pythons request library
 
--
+-want to get html code into python script to interact with it 
+
+-use pip to install requests 
+
+-want to issue an http get request to the given url of site site you want to webscrape 
+
+-retrives html data that the srever sends back and stores that data in a python object
+
+-fetching static site content from the internet 
+
+**Static Websites**
+
+-website I'm webscraping is *static html content*
+
+-when deciphering a block of html code, you can use html formatter to clean it up automatically 
+
+-html of this site uses descriptive class names 
+
+Examples:
+
+	class = "title is-5" contains title of the job posting
+	class = "subtitle is-6 company" contains name of the company that offers the position
+	class = "location" contains location of job
+	
+**2 challenging situations you might encounter when scraping websites**
+
+1. Hidden Websites 
+	* some pages contain info that's hidden behind login
+	* that means you need an account to scrape anything from the page
+	* process to make an http request from your python script is different from how you access a page from your browser, just cause you can log in to page from browser doesn't mean you'll be able to scrape it with python scrape 
+3. Dynamic Websites
+
 
 
 
