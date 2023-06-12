@@ -116,6 +116,11 @@ Examples:
 	* what happens in browser is not the same as what happens in script
 	* browser will execute the js code it recieves from a server and create the dom and html for you locally
 	* only way to go from js code to content you need is to execute code just like the browser
+	* requests library can't do that but there are other solutions
+	* requests-html allows you to render js using syntax similar to syntax in requests and also includes capabilities for parsing the data by using bs under the hood (selenium is also a good library, slimmed down browser that executes the js code for you before passing on the rendered html response to your script)
+
+
+**** Step 3: Parse HTML Code With Beautiful Soup
 
 
 
