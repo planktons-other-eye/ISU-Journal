@@ -75,6 +75,9 @@ l=Australia selects the location of the job.
 
 **** Step 2: Scrape HTML Content From a Page
 
+-want to get the sites html code into python script so you can interact with it, need to do this by going through pythons request library
+
+-
 
 
 
