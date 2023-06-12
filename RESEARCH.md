@@ -107,7 +107,15 @@ Examples:
 	* some pages contain info that's hidden behind login
 	* that means you need an account to scrape anything from the page
 	* process to make an http request from your python script is different from how you access a page from your browser, just cause you can log in to page from browser doesn't mean you'll be able to scrape it with python scrape 
-3. Dynamic Websites
+	* requests library  comes with built in capacity to handle authentication
+	* using this technique you can log in to websites when making the http request from python script and then scrape info hidden behind login
+
+2. Dynamic Websites
+	* static websites: server sends you an html page that already contains all the page info in the response, you can parse html response and immediately begin to pick out relevant data 
+	* dynamic website: server might not send back anyhtml at all, might send back javascript code as a response (doesn't return the same html that you see when viewing page from browser)
+	* what happens in browser is not the same as what happens in script
+	* browser will execute the js code it recieves from a server and create the dom and html for you locally
+	* only way to go from js code to content you need is to execute code just like the browser
 
 
 
