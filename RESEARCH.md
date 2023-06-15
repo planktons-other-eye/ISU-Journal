@@ -1,8 +1,8 @@
 
 | WebScraping | Research | Practice
 | -------- | -------------- | ---------- |
-| Article:| Beautiful Soup: Build a Webscarper With Python | Remote.co |
-| Source: | https://realpython.com/beautiful-soup-web-scraper-python/ | https://remote.co/remote-jobs/developer/ |
+| Article:| Beautiful Soup: Build a Webscarper With Python | Books.toscrape.com |
+| Source: | https://realpython.com/beautiful-soup-web-scraper-python/ | http://books.toscrape.com/index.html |
 | Reason: | Wanted to learn the basics of webscraping | Want to practice webscraping on static html website |
 
 
@@ -208,7 +208,7 @@ Examples:
 
 ### Going to apply these webscraping skills on another static website
 
-Website: https://remote.co/remote-jobs/developer/ 
+Website: http://books.toscrape.com/index.html
  
  	
  
