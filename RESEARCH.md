@@ -184,6 +184,13 @@ Examples:
 
 **Extract attributes from html elements**
 
+-in order to retrieve html attributes you need to extract the value of the html attruibute instead of discarding it, look at the a tag and retrieve href attribute (in this case) 
+
+-you could then give your code a final makeover and create a command-line interface (CLI) app that scrapes one of the job boards and filters the results by a keyword that you can input on each execution. Your CLI tool could allow you to search for specific types of jobs or jobs in particular locations (will be my next step when learning more about webscraping)
+
+**Conclusion**
+
+
 
 
 
