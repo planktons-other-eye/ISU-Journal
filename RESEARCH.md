@@ -1,9 +1,9 @@
 
-| WebScraping | Research |
-| -------- | -------------- |
-| Article:| Beautiful Soup: Build a Webscarper With Python |
-| Source: | https://realpython.com/beautiful-soup-web-scraper-python/ |
-| Reason: | Wanted to learn the basics of webscraping |
+| WebScraping | Research | Practice
+| -------- | -------------- | ---------- |
+| Article:| Beautiful Soup: Build a Webscarper With Python | Remote.co |
+| Source: | https://realpython.com/beautiful-soup-web-scraper-python/ | https://remote.co/remote-jobs/developer/ |
+| Reason: | Wanted to learn the basics of webscraping | Want to practice webscraping on static html website |
 
 
 **Challenges of web scraping:**
@@ -22,11 +22,12 @@ Continuous integration: practice of frequently building and testing each change 
 
 * API structures don’t change as frequently but CAN still be changed, it is usually more permanent an is a more reliable source if the site’s data 
 * HOW TO GATHER INFO USING API’s
+  
+</br>
 
+# How to webscrape:
 
-**How to webscrape:**
-
-**** Step 1: Inspect your data source
+### Step 1: Inspect your data source
 
 -First step is to inspect the website you want to scrape, need to understand the cite structure to extract the info that relevant 
 * likely when you click on an internal link within the website, the website url will change
@@ -64,7 +65,7 @@ q=software+developer selects the type of job.
 
 l=Australia selects the location of the job.
 
-**Inspect the Site Using Developer Tools 
+**Inspect the Site Using Developer Tools**
 
 -developer tools can help you understand the structure of a website
 
@@ -72,8 +73,9 @@ l=Australia selects the location of the job.
 
 -developer tools allow you to interactively explore the site's document object model (DOM)
 
+</br>
 
-**** Step 2: Scrape HTML Content From a Page
+### Step 2: Scrape HTML Content From a Page
 
 -want to get the sites html code into python script so you can interact with it, need to do this by going through pythons request library
 
@@ -119,8 +121,9 @@ Examples:
 	* requests library can't do that but there are other solutions
 	* requests-html allows you to render js using syntax similar to syntax in requests and also includes capabilities for parsing the data by using bs under the hood (selenium is also a good library, slimmed down browser that executes the js code for you before passing on the rendered html response to your script)
 
+</br>
 
-**** Step 3: Parse HTML Code With Beautiful Soup
+### Step 3: Parse HTML Code With Beautiful Soup
 
 -beautiful soup is a python library for parsing structured data 
 
@@ -201,9 +204,11 @@ Examples:
 * parse html with beautiful soup
 * build a script that fetches relavent info to me
 
-** Going to apply these webscraping skills on another static website
+</br>
 
--Website: https://remote.co/remote-jobs/developer/ 
+### Going to apply these webscraping skills on another static website
+
+Website: https://remote.co/remote-jobs/developer/ 
  
  	
  
