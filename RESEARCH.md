@@ -156,11 +156,33 @@ Examples:
 
 -can filter job listings by using key words
 
--know that the job titles are kept within <h2> elements, to filter for a specific job you can use the string argument, this doesn't always work though because the script will look for that string exactly and will not accept differences of capitalization, whitespaces, and spelling
+-know that the job titles are kept within h2 elements, to filter for a specific job you can use the string argument, this doesn't always work though because the script will look for that string exactly and will not accept differences of capitalization, whitespaces, and spelling
 
 -need to make the string search more general
 
 **Pass a function to a bs method**
+
+-in addition to strings, you can csometimes pass functions as arguments to bs methods
+
+-bs allows you to use either exact strings or functions as arguments for filtering text in bs objects 
+
+**Identifying error conditions**
+
+-when filtering for one element, it is possible that you will get aan error trying to print the rest of the information, teh code is trying to find each element in python_jobs, but only one of the elements was specified within python_jobs, the parsing library is still looking for the other elements anyways, it returns None because it can't find them, print() then fails when you try to extract the .text attribute from one of the None objects 
+
+-the text needed is nested in the sibling elements of the h2 elements the filter returned, bs helps select sibling, child, and parent elements of each bs object 
+
+**Access parent elements**
+
+-one way to access all the need info is to look at the closest parent element from your specified element when looking at the HTML
+
+-the class that has all the info I want is a third parent class, use elements in python_jobs to fetch great grandparents elements to get all info
+
+-now code has access to all relevant info, due to teh fact that now looping over third parent class elements instead of just h2 title elements 
+
+-using .parent attribute on bs object allows access to DOM structure for addressing elements you need 
+
+**Extract attributes from html elements**
 
 
 
