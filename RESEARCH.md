@@ -152,6 +152,18 @@ Examples:
 
 -other python string methods can be applied to further clean up the text
 
-**Find elements by class name and text content
+**Find elements by class name and text content**
+
+-can filter job listings by using key words
+
+-know that the job titles are kept within <h2> elements, to filter for a specific job you can use the string argument, this doesn't always work though because the script will look for that string exactly and will not accept differences of capitalization, whitespaces, and spelling
+
+-need to make the string search more general
+
+**Pass a function to a bs method**
+
+
+
+
 
 
