@@ -190,6 +190,23 @@ Examples:
 
 **Conclusion**
 
+-requests library allows you to fetch static html from internet using python 
+-can parse html with package called beautiful soup 
+
+-learned how to:
+* step through web scraping pipeline from start to finish
+* inspect html structure of target site with my browser's developer tools
+* decipher data encoded in urls
+* download html content with pythons requests library
+* parse html with beautiful soup
+* build a script that fetches relavent info to me
+
+** Going to apply these webscraping skills on another static website
+
+-Website: https://remote.co/remote-jobs/developer/ 
+ 
+ 	
+ 
 
 
 
