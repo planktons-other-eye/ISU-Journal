@@ -122,6 +122,36 @@ Examples:
 
 **** Step 3: Parse HTML Code With Beautiful Soup
 
+-beautiful soup is a python library for parsing structured data 
 
+-allows you to interact with HTML in a similar way to how you interact with a web page using dveloper tools 
+
+-need to install beautiful soup from terminal, then import library into python script to create beautiful soup object
+
+**Find elements by ID**
+
+-in an html webpage, every element can have an ID attribute assigned 
+
+-id attribute makes the element uniquely identifiable on the page, you can begin to parse a page by selecting a specific element by its ID
+
+-bs allows you to find that specific HTML element by its ID
+
+-can use .prettify for easier viewing
+
+**Finding elements by HTML Class name**
+
+-can work with the object you created and select more specific info, to do this, you call .find_all() on your bs object which returns an terable containing all the HTML for the new element you've selected to inspect
+
+-can further skim the html by picking out child elements from the parent element, use .find()
+
+**Extract Text From HTML Elements**
+
+-if you add .text to a bs object, you can return only the text content of the html elements that the object contains 
+
+-it's possible that after running this you will end up with extra whitespace, since we are now working with python strings you can .strip() any of the unwanted whitespace 
+
+-other python string methods can be applied to further clean up the text
+
+**Find elements by class name and text content
 
 
